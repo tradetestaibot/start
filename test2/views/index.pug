@@ -1,0 +1,20 @@
+extends layout
+
+block content
+  form(action="/sent", method="POST")
+    label(for="strategy") Enter The Strategy
+    input#strategy(type="text", name="strategy")
+    label(for="minbudget") Enter Your Minimum Budget
+    input#minbudget(type="text", name="minbudget")
+    label(for="maxbudget") Enter Your Maximum Budget
+    input#maxbudget(type="text", name="maxbudget")
+    label(for="typetrade") Enter The Type of Trading scalping...
+    input#typetrade(type="text", name="typetrade")
+    button(type="submit") Submit 
+  form(action="/execute-code", method="POST")
+    label(for="code") Enter The script
+    input#code(type="text", name="code")
+    button(type="submit") Submit 
+  if(msg)
+    h1=msg
+    p #{Respond}
