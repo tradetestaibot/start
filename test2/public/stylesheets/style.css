@@ -45,3 +45,13 @@ a {
   outline: none;
   cursor: pointer;
 }
+
+div {
+  margin: 20px;
+}
+
+.large-input {
+  width: 700px;
+  height: 150px;
+}
+
