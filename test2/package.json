@@ -7,6 +7,7 @@
     "devstart": "SET DEBUG=test2:* & nodemon ./bin/www"
   },
   "dependencies": {
+    "backtrader": "^0.0.1",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "dotenv": "^16.3.1",
@@ -16,6 +17,7 @@
     "mongoose": "^7.3.1",
     "morgan": "~1.9.1",
     "openai": "^3.3.0",
+    "pinjs": "^1.1.3",
     "pug": "2.0.0-beta11"
   },
   "devDependencies": {
